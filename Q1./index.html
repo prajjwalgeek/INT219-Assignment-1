@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main">
+
+        <form method="" action="" id="form">
+            <div class="main-top">
+                <div class="top-1">Air Line Name</div>
+                <div class="top-2">BOARDING PASS</div>
+            </div>
+            <div class="input-fields">
+                <div class="field">
+                    <p>Name of the class: </p>
+                    <input type="text" id="name" spellcheck="false" />
+                </div>
+
+                <div class="field">
+                    <p>Flight Number: </p>
+                    <input type="number" id="fno" spellcheck="false" />
+                </div>
+
+                <div class="field">
+                    <p>Flight Date: </p>
+                    <input type="date" id="fd" spellcheck="false" />
+                </div>
+
+                <div class="field">
+                    <p>Passenger's Information: </p>
+                    <input type="text" id="pi" spellcheck="false" />
+                </div>
+
+                <div class="field">
+                    <p>Passenger's Name: </p>
+                    <input type="text" id="pn" spellcheck="false" />
+                </div>
+                <div class="verticle-field">
+                    <div class="verticle-left">
+                        <p>Gender: </p>
+                        <select>
+                            <option value="" id="g" selected disabled hidden>Select Gender</option>
+                            <option value="male">Male</option>
+                            <option value="female">FeMale</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="verticle-right">
+                        <p>Age: </p>
+                        <input type="number" id="a" spellcheck="false" />
+                    </div>
+                </div>
+
+                <div class="field">
+                    <p>Boarding time: </p>
+                    <input type="time" id="bt" spellcheck="false" />
+                </div>
+
+                <div class="verticle-field">
+                    <div class="verticle-left">
+                        <p>From: </p>
+                        <input type="text" id="f" spellcheck="false" />
+                    </div>
+                    <div class="verticle-right">
+                        <p>To: </p>
+                        <input type="text" id="t" spellcheck="false" />
+                    </div>
+                </div>
+
+                <div class="field" id="btm">
+                    <p>Remarks: </p>
+                    <textarea spellcheck="false"></textarea>
+
+                </div>
+
+                <div class="field" id="btm">
+                    <p>Observations: </p>
+                    <textarea spellcheck="false"></textarea>
+                </div>
+            </div>
+            <div class="submit-div">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+    <div class="splash-image">
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
